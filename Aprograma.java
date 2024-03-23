@@ -28,10 +28,10 @@ public class Aprograma {
             case 7:
                 Ex7.run();
                 break;
+            case 8:
+                Ex8.run();
+                break;
                 /*
-             * case 8:
-             * Ex8.run();
-             * break;
              * case 9:
              * Ex9.run();
              * break;
