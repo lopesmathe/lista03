@@ -16,10 +16,10 @@ public class Aprograma {
             case 3:
                 Ex3.run();
                 break;
-                 /*
-             * case 4:
-             * Ex4.run();
-             * break;
+            case 4:
+                Ex4.run();
+                break;
+                /*
              * case 5:
              * Ex5.run();
              * break;
