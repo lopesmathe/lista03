@@ -22,10 +22,10 @@ public class Aprograma {
             case 5:
                 Ex5.run();
                 break;
+            case 6:
+                Ex6.run();
+                break;
                 /*
-             * case 6:
-             * Ex6.run();
-             * break;
              * case 7:
              * Ex7.run();
              * break;
