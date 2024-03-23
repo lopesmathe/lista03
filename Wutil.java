@@ -7,6 +7,8 @@ public class Wutil {
     private float num1F;
     private float num2F;
     private float num3F;
+    private String nome1;
+    private String nome2;
 
     public void PegarNumeros() {
             Scanner scanner = new Scanner(System.in);
@@ -55,6 +57,20 @@ public void PegarNumeroF() {
     System.out.println("Digite o número:");
     num1F = scanner.nextFloat();
 }
+
+public void pegarNome() {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("me diga o primeiro nome");
+    nome1 = scanner.nextLine();
+}
+public void pegarNomes() {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("me diga o primeiro nome");
+    nome1 = scanner.nextLine();
+    System.out.println("me diga o segundo nome");
+    nome2 = scanner.nextLine();
+}
+
     public int VoltarNumero1(){
         return num1;
     }
@@ -77,6 +93,13 @@ public void PegarNumeroF() {
 
     public int VoltarNumero3F(){
         return num3;
+    }
+
+    public  String voltarNome1(){
+        return nome1;
+    }
+    public  String voltarNome2(){
+        return nome2;
     }
 
     public int  ContaDeAdição(int a, int b){
