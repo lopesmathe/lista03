@@ -8,12 +8,12 @@ public class Aprograma {
         int escolha = Escolha.nextInt();
         switch (escolha) {
             case 1:
-                Ex3.run();
+                Ex1.run();
                 break;
-            /*
-             * case 2:
-             * Ex2.run();
-             * break;
+            case 2:
+                 Ex3.run();
+                 break;
+                /*
              * case 3:
              * Ex3.run();
              * break;
