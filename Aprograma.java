@@ -11,12 +11,12 @@ public class Aprograma {
                 Ex1.run();
                 break;
             case 2:
-                 Ex3.run();
+                 Ex2.run();
                  break;
-                /*
-             * case 3:
-             * Ex3.run();
-             * break;
+            case 3:
+                Ex3.run();
+                break;
+                 /*
              * case 4:
              * Ex4.run();
              * break;
