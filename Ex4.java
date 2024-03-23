@@ -10,6 +10,5 @@ public class Ex4 {
         usuario.quantidade = util.VoltarNumero1F();
         float comversao = usuario.quantidade * usuario.cotacao; 
         System.out.println(comversao);
-
     }
 }
