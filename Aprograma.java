@@ -37,10 +37,10 @@ public class Aprograma {
                 case 10:
                 Ex10.run();
                 break;
-                /*
                 case 11:
                 Ex11.run();
                 break;
+                /*
                 case 12:
                 Ex12.run();
                 break;

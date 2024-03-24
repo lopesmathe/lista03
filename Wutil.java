@@ -63,6 +63,10 @@ public void pegarNome() {
     System.out.println("me diga o primeiro nome");
     nome1 = scanner.nextLine();
 }
+public void pegarNomeSemNada() {
+    Scanner scanner = new Scanner(System.in);
+    nome1 = scanner.nextLine();
+}
 public void pegarNomes() {
     Scanner scanner = new Scanner(System.in);
     System.out.println("me diga o primeiro nome");

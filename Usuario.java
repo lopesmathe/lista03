@@ -4,4 +4,6 @@ public class Usuario {
     float acrecimo;
     int escolha;
     int idade;
+    String nome;
+    String sexo;
 }
