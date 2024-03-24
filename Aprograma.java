@@ -46,11 +46,11 @@ public class Aprograma {
             case 13:
                 Ex13.run();
                 break;
+            case 14:
+                Ex14.run();
+                break;
                 /*
-             * case 14:
-             * Ex14.run();
-             * break;
-             * case 15:
+                * case 15:
              * Ex15.run();
              * break;
              * case 16:
