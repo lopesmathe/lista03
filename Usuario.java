@@ -3,4 +3,5 @@ public class Usuario {
     float quantidade;
     float acrecimo;
     int escolha;
+    int idade;
 }

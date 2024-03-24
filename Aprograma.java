@@ -31,20 +31,20 @@ public class Aprograma {
             case 8:
                 Ex8.run();
                 break;
+            case 9:
+                Ex9.run();
+                break;
+                case 10:
+                Ex10.run();
+                break;
                 /*
-             * case 9:
-             * Ex9.run();
-             * break;
-             * case 10:
-             * Ex10.run();
-             * break;
-             * case 11:
-             * Ex11.run();
-             * break;
-             * case 12:
-             * Ex12.run();
-             * break;
-             * case 13:
+                case 11:
+                Ex11.run();
+                break;
+                case 12:
+                Ex12.run();
+                break;
+                case 13:
              * Ex13.run();
              * break;
              * case 14:
