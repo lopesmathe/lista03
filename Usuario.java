@@ -6,4 +6,5 @@ public class Usuario {
     int idade;
     String nome;
     String sexo;
+    int saude;
 }

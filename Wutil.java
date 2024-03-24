@@ -51,6 +51,10 @@ public class Wutil {
         System.out.println("Digite o número:");
         num1 = scanner.nextInt();
 }
+public void PegarNumeroSemNada() {
+    Scanner scanner = new Scanner(System.in);
+    num1 = scanner.nextInt();
+}
 
 public void PegarNumeroF() {
     Scanner scanner = new Scanner(System.in);
