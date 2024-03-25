@@ -8,4 +8,5 @@ public class Usuario {
     String sexo;
     int saude;
     float salario;
+    float altura;
 }
