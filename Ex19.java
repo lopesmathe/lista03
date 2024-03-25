@@ -6,11 +6,14 @@ public class Ex19 {
         Wutil util = new Wutil();
         System.out.println("Vamos ver se os três números formam um triângulo.");
         System.out.println("Lado 1:");
-        ld1 = util.PegarNumeroSemNada();
+        util.PegarNumeroSemNada();
+        ld1 = util.VoltarNumero1();
         System.out.println("Lado 2:");
-        ld2 = util.PegarNumeroSemNada();
+        util.PegarNumeroSemNada();
+        ld2 = util.VoltarNumero1();
         System.out.println("Lado 3:");
-        ld3 = util.PegarNumeroSemNada();
+        util.PegarNumeroSemNada();
+        ld3 = util.VoltarNumero1();
         
         if (ld1 + ld2 > ld3 && ld1 + ld3 > ld2 && ld2 + ld3 > ld1) {
             if (ld1 == ld2 && ld2 == ld3) {
