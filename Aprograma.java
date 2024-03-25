@@ -70,6 +70,9 @@ public class Aprograma {
             case 21:
                 Ex21.run();
                 break;
+            case 22:
+                Ex22.run();
+                break;
             default: 
             break;
         }
