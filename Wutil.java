@@ -62,6 +62,11 @@ public void PegarNumeroF() {
     num1F = scanner.nextFloat();
 }
 
+public void PegarNumeroSemNadaF() {
+    Scanner scanner = new Scanner(System.in);
+    num1F = scanner.nextFloat();
+}
+
 public void pegarNome() {
     Scanner scanner = new Scanner(System.in);
     System.out.println("me diga o primeiro nome");

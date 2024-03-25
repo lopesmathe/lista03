@@ -7,4 +7,5 @@ public class Usuario {
     String nome;
     String sexo;
     int saude;
+    float salario;
 }
