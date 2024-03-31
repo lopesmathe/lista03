@@ -1,7 +1,7 @@
 public class Ex12 {
     public static void run(){
         Wutil util = new Wutil();
-        Concessionaria concessionaria = new Concessionaria();
+        LojaDeCarros concessionaria = new LojaDeCarros();
         System.out.println("escolha o carro para ver a promoçao");
         System.out.println("opçao 1: " + concessionaria.ferrari);
         System.out.println("opçao 2: " + concessionaria.fiat2014);

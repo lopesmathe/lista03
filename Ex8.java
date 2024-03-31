@@ -1,16 +1,19 @@
 public class Ex8 {
     public static void run(){
-        Aluno aluno = new Aluno();
+        AlunoFaculdade aluno = new AlunoFaculdade();
         Wutil util = new Wutil();
         util.pegarNome();
         aluno.nome = util.voltarNome1();
-        util.PegarNumeroF();
+        System.out.println("nota 1");
+        util.PegarNumeroSemNadaF();
         aluno.nota1 = util.VoltarNumero1F();
-        util.PegarNumeroF();
+        System.out.println("nota 2");
+        util.PegarNumeroSemNadaF();
         aluno.nota2 = util.VoltarNumero1F();
-        util.PegarNumeroF();
+        System.out.println("nota 3");
+        util.PegarNumeroSemNadaF();
         aluno.nota3 = util.VoltarNumero1F();
-        float media = aluno.nota1 + aluno.nota2 + aluno.nota3 / 3;
+        float media = (aluno.nota1 + aluno.nota2 + aluno.nota3) / 3;
         System.out.println("nome = " + aluno.nome + "a media é " + media);
         if (media < 5.0) {
             System.out.println("reprovado");

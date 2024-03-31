@@ -1,7 +1,7 @@
 public class Ex13 {
     public static void run(){
         Wutil util = new Wutil();
-        Usuario usuario = new Usuario();
+        SerHumano usuario = new SerHumano();
         util.pegarNome();
         usuario.nome = util.voltarNome1();
         System.out.println("me informe seu sexo (1 = F,2 = M)");
