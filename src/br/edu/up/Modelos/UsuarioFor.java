@@ -1,6 +1,6 @@
 package br.edu.up.Modelos;
 
-public class Usuarioss {
+public class UsuarioFor {
     private int idade;
 
     public int getIdade() {

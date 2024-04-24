@@ -2,10 +2,10 @@ package br.edu.up.Modelos;
 
 import java.util.Random;
 
-public class Produtos {
+public class ProdutoFor {
     private float[] itens = new float[40];
 
-    public Produtos() {
+    public ProdutoFor() {
         Random random = new Random();
         for (int i = 0; i < 40; i++) {
             itens[i] = random.nextFloat() * 100;

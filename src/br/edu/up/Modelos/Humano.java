@@ -1,6 +1,6 @@
 package br.edu.up.Modelos;
 
-public class Humanos {
+public class Humano {
     private int quantidade;
     private int idade;
 

@@ -3,7 +3,7 @@ import br.edu.up.Modelos.*;
 public class Ex10 {
     public static void run(){
         Wutil util = new Wutil();
-        Humanos pessoa = new Humanos();
+        Humano pessoa = new Humano();
         String Maior = "\033[94mMaior de idade\033[0m";
         String Menor = "\033[31mMenor de idade\033[0m";
         System.out.println("me fale quantas pessoas vao ter");

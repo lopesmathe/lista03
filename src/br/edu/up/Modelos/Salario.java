@@ -1,6 +1,6 @@
 package br.edu.up.Modelos;
 
-public class Salarios {
+public class Salario {
     private float cotacao;
     private float quantidade;
     private float acrecimo;

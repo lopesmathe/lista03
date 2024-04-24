@@ -3,7 +3,7 @@ import br.edu.up.Modelos.*;
 public class Ex21 {
     public static void run() {
         Wutil util = new Wutil();
-        Usuarioss usuario = new Usuarioss();
+        UsuarioFor usuario = new UsuarioFor();
         System.out.println("me informe a idade do nadador");
         util.PegarNumeroSemNada();
         usuario.setIdade(util.VoltarNumero1());

@@ -3,7 +3,7 @@ import br.edu.up.Modelos.*;
 public class Ex12 {
     public static void run() {
         Wutil util = new Wutil();
-        LojaDeCarros concessionaria = new LojaDeCarros();
+        LojaDeCarro concessionaria = new LojaDeCarro();
         System.out.println("escolha o carro para ver a promoçao");
         System.out.println("opçao 1: " + concessionaria.getFerrari());
         System.out.println("opçao 2: " + concessionaria.getFiat2014());

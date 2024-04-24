@@ -1,6 +1,6 @@
 package br.edu.up.Modelos;
 
-public class NotasAlunos {
+public class NotaAluno {
     private float nota1;
     private float nota2;
     private float nota3;

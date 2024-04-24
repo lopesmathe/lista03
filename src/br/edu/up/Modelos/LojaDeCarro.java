@@ -1,6 +1,6 @@
 package br.edu.up.Modelos;
 
-public class LojaDeCarros {
+public class LojaDeCarro {
         private float ferrari = 8499990;
         private float lamborghini = 4300000;
         private float uno = 20000;

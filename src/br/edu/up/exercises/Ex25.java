@@ -3,7 +3,7 @@ import br.edu.up.Modelos.*;
 public class Ex25 {
     public static void run() {
         Wutil util = new Wutil();
-        NotasAlunos notas = new NotasAlunos();
+        NotaAluno notas = new NotaAluno();
         System.out.println("me informe qual a nota Laboratório peso 2");
         util.PegarNumeroSemNadaF();
         notas.setNota1(util.VoltarNumero1F());
